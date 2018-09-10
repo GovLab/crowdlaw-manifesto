@@ -582,7 +582,7 @@ body {
   // width: 70px;
   // opacity: 0.2;
   display: block;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
 }
 
 .js-tooltip {
@@ -647,6 +647,15 @@ body {
 }
 
 .page-section {
+  &__intro {
+    font-size: 1.2rem;
+    color: $white;
+    background-color: $main-color;
+    @include breakpoint(max-width 870px) {
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+  }
   &__manifesto {
     font-size: 1.1rem;
     @include breakpoint(max-width 870px) {
@@ -662,18 +671,20 @@ body {
         margin-right: 30px;
       }
       li {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
       }
     }
   }
 }
 
 .signatures {
+  font-size: 0.9rem;
   &__signature {
-    width: 50%;
-    float: left;
-    padding: 10px;
+    padding: 5px;
+    &__org {
+      color: rgba(0,0,0,0.4);
+    }
   }
 }
 
@@ -699,4 +710,45 @@ body {
   opacity: 0.8;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.floating-button {
+  @include breakpoint(max-width 870px) {
+  display: none;
+}
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  opacity: 1;
+  background-color: $white;
+  transition: opacity 0.2s ease-out;
+  &:hover {
+    text-decoration: none;
+  }
+  &--hide {
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+  }
+  &__text {
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 10px;
+    vertical-align: sub;
+    line-height: 1.1;
+  }
+  &__icon {
+    padding-bottom: 0;
+    font-size: 1rem;
+    padding: 20px;
+    border-radius: 100%;
+    // background-color: rgba(0,0,0,0.05);
+    background-color: $main-color;
+    color: $white;
+    transition: background-color 0.2s ease-out;
+    &:hover {
+      // background-color: rgba(0,0,0,0.1);
+      background-color: darken($main-color, 10);
+      transition: background-color 0.2s ease-out;
+    }
+  }
 }

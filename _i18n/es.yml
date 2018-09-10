@@ -25,6 +25,7 @@ p:
     sign-org: Click here to sign as organization and individual (Preferred)
     sign-indv: Click here to sign as individual
     required: Required Field
+    add-signature: 'Add your<br>signature'
     public-info-note: Information shared will be shared publicly on the CrowdLaw Manifesto.
     signatures-label: The CrowdLaw Manifesto has been signed by the following individuals and organizations
     individuals: Individuals
