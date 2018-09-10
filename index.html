@@ -20,29 +20,39 @@ page_title: 'CrowdLaw Manifesto'
       <div class="column large-10 large-offset-1">
         <p>
          {% t p.index.intro %}
-        </p>
+       </p>
 
-        <ol class="page-section__manifesto--list">
-          <li>{% t p.index.principles-list.item-1 %}</li>
-          <li>{% t p.index.principles-list.item-2 %}</li>
-          <li>{% t p.index.principles-list.item-3 %}</li>
-          <li>{% t p.index.principles-list.item-4 %}</li>
-          <li>{% t p.index.principles-list.item-5 %}</li>
-          <li>{% t p.index.principles-list.item-6 %}</li>
-          <li>{% t p.index.principles-list.item-7 %}</li>
-          <li>{% t p.index.principles-list.item-8 %}</li>
-          <li>{% t p.index.principles-list.item-9 %}</li>
-          <li>{% t p.index.principles-list.item-10 %}</li>
-          <li>{% t p.index.principles-list.item-11 %}</li>
-          <li>{% t p.index.principles-list.item-12 %}</li>
-        </ol>
-        <p>{% t p.index.signatures-label %}</p>
-        <p>{% t p.index.individuals %}</p>
+       <ol class="page-section__manifesto--list">
+        <li>{% t p.index.principles-list.item-1 %}</li>
+        <li>{% t p.index.principles-list.item-2 %}</li>
+        <li>{% t p.index.principles-list.item-3 %}</li>
+        <li>{% t p.index.principles-list.item-4 %}</li>
+        <li>{% t p.index.principles-list.item-5 %}</li>
+        <li>{% t p.index.principles-list.item-6 %}</li>
+        <li>{% t p.index.principles-list.item-7 %}</li>
+        <li>{% t p.index.principles-list.item-8 %}</li>
+        <li>{% t p.index.principles-list.item-9 %}</li>
+        <li>{% t p.index.principles-list.item-10 %}</li>
+        <li>{% t p.index.principles-list.item-11 %}</li>
+        <li>{% t p.index.principles-list.item-12 %}</li>
+      </ol>
+      <p>{% t p.index.signatures-label %}:</p>
+      <p><b>{% t p.index.individuals %}</b></p>
 
-        <p>{% t p.index.organizations %}</p>
+      <div id="content" class="content-container"></div>
 
-      </p>
-    </div>
+      <p>&nbsp;</p>
+
+      <p><b>{% t p.index.organizations %}</b></p>
+
+      <div id="content-orgs" class="content-container"></div>
+
+      <p>&nbsp;</p>
+
+    </p>
   </div>
+</div>
 </section>
 </div>
+
+<script src="{{'/js/contentful-data.js' | relative_url}}" type="text/javascript"></script>
