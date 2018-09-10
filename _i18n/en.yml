@@ -4,6 +4,7 @@ p:
   confirmation:
     message: "Thank you for signing the CrowdLaw Manifesto.  After your submission is processed, the manifesto will be updated to include your signature.  Please feel free to <a href='mailto:crowdlaw@thegovlab.org'>contact us directly</a> if you need any assistance."
   index:
+    manifesto-title: The CrowdLaw Manifesto
     intro: "At the <a href='https://crowd.law/crowdlaw-people-led-innovation-in-urban-lawmaking-868dd31d32a2' target='_blank'>Rockefeller Foundation Bellagio Center</a> this spring, <a href='https://crowd.law/crowdlaw-interviews-the-future-of-participatory-law-making-2d242ca72257' target='_blank'>assembled participants</a> met to discuss CrowdLaw, namely how to use technology to improve the quality and effectiveness of law and policymaking through greater public engagement. We put together and signed 12 principles to promote the use of CrowdLaw by local legislatures and national parliaments, calling for legislatures, technologists and the public to participate in creating more open and participatory lawmaking practices. We invite you to <a href='#sign'>sign the Manifesto using the form below</a>."
     principles-list:
       item-1: To improve public trust in democratic institutions, we must improve how we govern in the 21st century.
@@ -20,8 +21,8 @@ p:
       item-12: Governing institutions at every level should create the legal and regulatory frameworks necessary to promote CrowdLaw and better forms of public engagement and usher in a new era of more open, participatory and effective governing.
     form-header: Sign the CrowdLaw Manifesto
     full-name: Full Name
-    title: Title
-    affiliation: Affiliation
+    title: Job Title
+    affiliation: Affiliation / Organization
     location: Location
     org-indv-label: I would like to add my signature to the CrowdLaw Manifesto
     sign-org: Sign as organization and individual (Preferred)
