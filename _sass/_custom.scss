@@ -579,7 +579,8 @@ body {
 .top-section--mobile-logo {
   margin: 30px auto 0 auto;
   width: 200px;
-  opacity: 0.2;
+  // width: 70px;
+  // opacity: 0.2;
   display: block;
   margin-bottom: 20px;
 }
@@ -689,4 +690,13 @@ body {
       background-color: $main-color;
     }
   }
+}
+
+.bottom-image {
+  display: block;
+  margin: 0 auto;
+  width: 30px;
+  opacity: 0.8;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
