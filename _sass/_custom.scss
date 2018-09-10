@@ -655,11 +655,11 @@ body {
     }
     &--list {
       margin: 40px;
+      padding-left: 0;
 
       @include breakpoint(max-width 870px) {
         margin-left: 30px;
-        margin-right: 20px;
-        padding-left: 0;
+        margin-right: 30px;
       }
       li {
         margin-top: 20px;
