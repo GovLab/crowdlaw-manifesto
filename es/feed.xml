@@ -3,10 +3,10 @@
   <channel>
     <title>CrowdLaw Manifesto</title>
     <description></description>
-    <link>/es/</link>
-    <atom:link href="/es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Sep 2018 04:49:17 -0400</pubDate>
-    <lastBuildDate>Mon, 10 Sep 2018 04:49:17 -0400</lastBuildDate>
+    <link>/crowdlaw-manifesto/es/</link>
+    <atom:link href="/crowdlaw-manifesto/es/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 10 Sep 2018 04:50:26 -0400</pubDate>
+    <lastBuildDate>Mon, 10 Sep 2018 04:50:26 -0400</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
   </channel>
