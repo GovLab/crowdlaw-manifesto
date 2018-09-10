@@ -1,81 +1,148 @@
----
-layout: default
-page_id: 'list-page'
-namespace: list_page
-page_title: 'CrowdLaw Manifesto'
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CrowdLaw Manifesto</title>
 
-<div class="list-page">
+    <meta property="og:title" content="CrowdLaw Manifesto" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://localhost:4000/" />
+    <meta property="og:image" content="/img/crowdlaw-flat-mono.png" />
+    <meta property="og:description" content=""/>
+
+    <link rel="icon" type="image/png" href="/img/icon.png">
+    <link rel="apple-touch-icon" type="image/png" href="/img/icon.png">
+    <link rel="icon" sizes="144x144" href="/img/icon.png">
+    <link rel="stylesheet" href="/scripts/foundation.min.css"/>
+    <link rel="stylesheet" href="/scripts/slick.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/custom-styles.css"/>
+    <script src="https://use.typekit.net/mvc3cdb.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="/scripts/jquery-2.1.4.min.js"></script>
+    <script src="/scripts/slick.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="/scripts/scripts.js"></script>
+    <script src="/vendor/contentful.browser.min.js" type="text/javascript"></script>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40012093-20"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '');
+    </script>
+
+</head>
+
+
+<body id="list-page">
+    <header class="top-bar top-bar--transparent">
+        <span class="top-bar__button top-bar--transparent  js-trigger-menu">menu</span>
+        <nav class="main-menu js-target-menu main-menu--left">
+          <a href="//crowd.law" target="_blank">Crowd.law</a>
+          <a href="//catalog.crowd.law" target="_blank">Crowdlaw Catalog</a>
+          <a href="mailto:crowdlaw@thegovlab.org" target="_blank">Contact Us <i class="material-icons" style="padding-left: 10px; vertical-align: middle; transform: translateY(-2px);">email</i></a>
+      </nav>
+
+      <a class="top-bar__logo" href="/index.html"><img src="/img/govlab-logo-white.png" alt="The GovLab"></a>
+
+
+      <div class='lang-select'>
+          
+          
+          
+          <a class="lang_select-active" href="/">English</a>  | <a href="/es/" >Español</a>
+          
+      </div>
+
+  </header>
+
+  <div class="list-page">
 
   <div class="top-section top-section--od500-header top-section--main-color top-section--map list-page__header">
     <div class="top-section--title-container">
-      <img class="top-section--title" src="{{ 'img/crowdlawlogo.svg' | relative_url }}">
-      <span class="top-section--subtitle">{% t g.manifesto %}</span>
+      <img class="top-section--title" src="/img/crowdlawlogo.svg">
+      <span class="top-section--subtitle">Manifesto</span>
     </div>
-    <div class="top-section--mobile-logo"><img src="{{'img/crowdlaw-logo-color-trans.svg' | relative_url}}"></div>
+    <div class="top-section--mobile-logo"><img src="/img/crowdlaw-logo-color-trans.svg"></div>
   </div>
 
   <section class="page-section page-section__manifesto" >
     <div class="row expanded collapse ">
       <div class="column large-10 large-offset-1">
         <p>
-         {% t p.index.intro %}
+         At the <a href='https://crowd.law/crowdlaw-people-led-innovation-in-urban-lawmaking-868dd31d32a2' target='_blank'>Rockefeller Foundation Bellagio Center</a> this spring, <a href='https://crowd.law/crowdlaw-interviews-the-future-of-participatory-law-making-2d242ca72257' target='_blank'>assembled participants</a> met to discuss CrowdLaw, namely how to use technology to improve the quality and effectiveness of law and policymaking through greater public engagement. We put together and signed 12 principles to promote the use of CrowdLaw by local legislatures and national parliaments, calling for legislatures, technologists and the public to participate in creating more open and participatory lawmaking practices. We invite you to sign the Manifesto using the form below.
        </p>
 
        <ol class="page-section__manifesto--list">
-        <li>{% t p.index.principles-list.item-1 %}</li>
-        <li>{% t p.index.principles-list.item-2 %}</li>
-        <li>{% t p.index.principles-list.item-3 %}</li>
-        <li>{% t p.index.principles-list.item-4 %}</li>
-        <li>{% t p.index.principles-list.item-5 %}</li>
-        <li>{% t p.index.principles-list.item-6 %}</li>
-        <li>{% t p.index.principles-list.item-7 %}</li>
-        <li>{% t p.index.principles-list.item-8 %}</li>
-        <li>{% t p.index.principles-list.item-9 %}</li>
-        <li>{% t p.index.principles-list.item-10 %}</li>
-        <li>{% t p.index.principles-list.item-11 %}</li>
-        <li>{% t p.index.principles-list.item-12 %}</li>
+        <li>To improve public trust in democratic institutions, we must improve how we govern in the 21st century.</li>
+        <li>CrowdLaw is any law, policy-making or public decision-making that offers a meaningful opportunity for the public to participate in one or multiples stages of decision-making, including but not limited to the processes of problem identification, solution identification, proposal drafting, ratification, implementation or evaluation.</li>
+        <li>CrowdLaw draws on innovative processes and technologies and encompasses diverse forms of engagement among elected representatives, public officials, and those they represent.</li>
+        <li>When designed well, CrowdLaw may help governing institutions obtain more relevant facts and knowledge as well as more diverse perspectives, opinions and ideas to inform governing at each stage and may help the public exercise political will.</li>
+        <li>When designed well, CrowdLaw may help democratic institutions build trust and the public to play a more active role in their communities and strengthen both active citizenship and democratic culture.</li>
+        <li>When designed well, CrowdLaw may enable engagement that is thoughtful, inclusive, informed but also efficient, manageable and sustainable.</li>
+        <li>Therefore, governing institutions at every level should experiment and iterate with CrowdLaw initiatives in order to create formal processes for diverse members of society to participate in order to improve the legitimacy of decision-making, strengthen public trust and produce better outcomes.</li>
+        <li>Governing institutions at every level should encourage research and learning about CrowdLaw and its impact on individuals, on institutions and on society.</li>
+        <li>The public also has a responsibility to improve our democracy by demanding and creating opportunities to engage and then actively contributing expertise, experience, data and opinions.</li>
+        <li>Technologists should work collaboratively across disciplines to develop, evaluate and iterate varied, ethical and secure CrowdLaw platforms and tools, keeping in mind that different participation mechanisms will achieve different goals.</li>
+        <li>Governing institutions at every level should encourage collaboration across organizations and sectors to test what works and share good practices.</li>
+        <li>Governing institutions at every level should create the legal and regulatory frameworks necessary to promote CrowdLaw and better forms of public engagement and usher in a new era of more open, participatory and effective governing.</li>
       </ol>
 
-      <h2>{% t p.index.form-header %}</h2>
+      <h2>Sign the CrowdLaw Manifesto</h2>
 
       <div id="signature-form" class="signature-form">
 
         <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdwBMQGcxb5AgsSPyMusEN9u7FWRQaQ3X5r8cTuUpyp_0RiEA/formResponse?embedded=true" target="_self" method="POST" id="mG61Hd">
-         <div class="freebirdFormviewerViewItemsItemItemTitle exportItemTitle freebirdCustomFont" dir="auto" role="heading" aria-level="2" aria-describedby="i.desc.2088721365 i3">{% t p.index.full-name %} <span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span></div>
+         <div class="freebirdFormviewerViewItemsItemItemTitle exportItemTitle freebirdCustomFont" dir="auto" role="heading" aria-level="2" aria-describedby="i.desc.2088721365 i3">Full Name <span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span></div>
 
          <input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Full Name" aria-describedby="i.desc.2088721365 i.err.2088721365" name="entry.703409474" value="" required dir="auto" data-initial-dir="auto" data-initial-value=""/>
 
-         <div class="freebirdFormviewerViewItemsItemItemTitle exportItemTitle freebirdCustomFont" dir="auto" role="heading" aria-level="2" aria-describedby="i.desc.977920320 i6">{% t p.index.title %} <span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span></div>
+         <div class="freebirdFormviewerViewItemsItemItemTitle exportItemTitle freebirdCustomFont" dir="auto" role="heading" aria-level="2" aria-describedby="i.desc.977920320 i6">Title <span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span></div>
 
          <input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Title" aria-describedby="i.desc.977920320 i.err.977920320" name="entry.564258784" value="" required dir="auto" data-initial-dir="auto" data-initial-value=""/>
 
 
 
-         <div class="freebirdFormviewerViewItemsItemItemTitle exportItemTitle freebirdCustomFont" dir="auto" role="heading" aria-level="2" aria-describedby="i.desc.2069690891 i9">{% t p.index.affiliation %} <span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span></div>
+         <div class="freebirdFormviewerViewItemsItemItemTitle exportItemTitle freebirdCustomFont" dir="auto" role="heading" aria-level="2" aria-describedby="i.desc.2069690891 i9">Affiliation <span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span></div>
 
          <input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Affiliation" aria-describedby="i.desc.2069690891 i.err.2069690891" name="entry.1120235945" value="" required dir="auto" data-initial-dir="auto" data-initial-value=""/>
 
 
 
-         <div class="freebirdFormviewerViewItemsItemItemTitle exportItemTitle freebirdCustomFont" dir="auto" role="heading" aria-level="2" aria-describedby="i.desc.674281559 i12">{% t p.index.location %} <span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span></div>
+         <div class="freebirdFormviewerViewItemsItemItemTitle exportItemTitle freebirdCustomFont" dir="auto" role="heading" aria-level="2" aria-describedby="i.desc.674281559 i12">Location <span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span></div>
 
 
          <input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Location" aria-describedby="i.desc.674281559 i.err.674281559" name="entry.1459124212" value="" required dir="auto" data-initial-dir="auto" data-initial-value=""/>
 
 
 
-         <div class="freebirdFormviewerViewItemsItemItemTitle exportItemTitle freebirdCustomFont" dir="auto" id="i13" role="heading" aria-level="2" aria-describedby="i.desc.658100416 i16">{% t p.index.org-indv-label %} <span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span></div>
+         <div class="freebirdFormviewerViewItemsItemItemTitle exportItemTitle freebirdCustomFont" dir="auto" id="i13" role="heading" aria-level="2" aria-describedby="i.desc.658100416 i16">I would like to add my signature to the CrowdLaw Manifesto <span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span></div>
 
          <div class="select">
            <select name="entry.2068415551">
-            <option value="Click here to sign as organization and individual (Preferred)">{% t p.index.sign-org %}</option>
-            <option value="Click here to sign as individual">{% t p.index.sign-indv %}</option>
+            <option value="Click here to sign as organization and individual (Preferred)">Click here to sign as organization and individual (Preferred)</option>
+            <option value="Click here to sign as individual">Click here to sign as individual</option>
           </select>
         </div>
 
 
-         <p class="signature-form__note"><span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span> </span>{% t p.index.required %} <br>{% t p.index.public-info-note %}</p>
+         <p class="signature-form__note"><span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span> </span>Required Field <br>Information shared will be shared publicly on the CrowdLaw Manifesto.</p>
 
          <input type="hidden" name="fvv" value="1"><input type="hidden" name="draftResponse" value="[null,null,&quot;4133188686518312886&quot;]
          "><input type="hidden" name="pageHistory" value="0"><input type="hidden" name="fbzx" value="4133188686518312886">
@@ -89,20 +156,20 @@ page_title: 'CrowdLaw Manifesto'
 
      </div>
 
-     <p>{% t p.index.signatures-label %}:</p>
-     <p><b>{% t p.index.individuals %}</b></p>
+     <p>The CrowdLaw Manifesto has been signed by the following individuals and organizations:</p>
+     <p><b>Individuals</b></p>
 
      <div id="content" class="content-container"></div>
 
      <p>&nbsp;</p>
 
-     <p><b>{% t p.index.organizations %}</b></p>
+     <p><b>Organizations</b></p>
 
      <div id="content-orgs" class="content-container"></div>
 
      <p>&nbsp;</p>
 
-         <div class="bottom-image"><img src="{{'img/crowdlaw-pin-logo2.svg' | relative_url}}"></div>
+         <div class="bottom-image"><img src="/img/crowdlaw-pin-logo2.svg"></div>
 
    </p>
  </div>
@@ -111,4 +178,18 @@ page_title: 'CrowdLaw Manifesto'
 </div>
 
 
-<script src="{{'/js/contentful-data.js' | relative_url}}" type="text/javascript"></script>
+<script src="/js/contentful-data.js" type="text/javascript"></script>
+
+<div class="copyright">
+    <div class="row align-center">
+        <div class="large-10 large-centered columns">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img class="copyright__cc-badge" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        </div>
+    </div>
+</div>
+
+
+<div id="overlay" class="js-overlay"></div>
+</body>
+</html>
