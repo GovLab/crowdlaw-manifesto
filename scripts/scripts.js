@@ -1,19 +1,20 @@
 $(document).ready(function () {
 
-    var pos1 = $('#pos1').offset().top;
-    var pos2 = $('#pos2').offset().top - 100;
+    if ($('#sign-button').length > 0) {
+        var pos1 = $('#pos1').offset().top;
+        var pos2 = $('#pos2').offset().top - 100;
 
-    var showhidebtn = function (event) {
-        var scroll = $(window).scrollTop();
-        if (scroll > pos1 && scroll < pos2) {
-            $('#sign-button').removeClass('floating-button--hide');
-        } else {
-            $('#sign-button').addClass('floating-button--hide');
-        }
-    };
-
-    // $(window).scroll($.debounce(100, showhidebtn));
-    $(window).scroll(showhidebtn);
+        var showhidebtn = function (event) {
+            var scroll = $(window).scrollTop();
+            if (scroll > pos1 && scroll < pos2) {
+                $('#sign-button').removeClass('floating-button--hide');
+            } else {
+                $('#sign-button').addClass('floating-button--hide');
+            }
+        };
+        // $(window).scroll($.debounce(100, showhidebtn));
+        $(window).scroll(showhidebtn);
+    }
 
 
     // Smooth Scrolling Function
