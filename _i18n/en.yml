@@ -16,6 +16,16 @@ p:
       item-10: Technologists should work collaboratively across disciplines to develop, evaluate and iterate varied, ethical and secure CrowdLaw platforms and tools, keeping in mind that different participation mechanisms will achieve different goals.
       item-11: Governing institutions at every level should encourage collaboration across organizations and sectors to test what works and share good practices.
       item-12: Governing institutions at every level should create the legal and regulatory frameworks necessary to promote CrowdLaw and better forms of public engagement and usher in a new era of more open, participatory and effective governing.
+    form-header: Sign the CrowdLaw Manifesto
+    full-name: Full Name
+    title: Title
+    affiliation: Affiliation
+    location: Location
+    org-indv-label: I would like to add my signature to the CrowdLaw Manifesto
+    sign-org: Click here to sign as organization and individual (Preferred)
+    sign-indv: Click here to sign as individual
+    required: Required Field
+    public-info-note: Information shared will be shared publicly on the CrowdLaw Manifesto.
     signatures-label: The CrowdLaw Manifesto has been signed by the following individuals and organizations
     individuals: Individuals
     organizations: Organizations

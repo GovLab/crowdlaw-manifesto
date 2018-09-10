@@ -675,3 +675,18 @@ body {
     padding: 10px;
   }
 }
+
+.freebirdFormviewerViewItemsItemRequiredAsterisk {
+    color: #db4437;
+}
+
+.signature-form {
+  .submit {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    input {
+      color: $white;
+      background-color: $main-color;
+    }
+  }
+}
