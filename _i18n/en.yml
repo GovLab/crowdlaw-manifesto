@@ -1,0 +1,21 @@
+g:
+  manifesto: Manifesto
+p:
+  index:
+    intro: "At the <a href='https://crowd.law/crowdlaw-people-led-innovation-in-urban-lawmaking-868dd31d32a2' target='_blank'>Rockefeller Foundation Bellagio Center</a> this spring, <a href='https://crowd.law/crowdlaw-interviews-the-future-of-participatory-law-making-2d242ca72257' target='_blank'>assembled participants</a> met to discuss CrowdLaw, namely how to use technology to improve the quality and effectiveness of law and policymaking through greater public engagement. We put together and signed 12 principles to promote the use of CrowdLaw by local legislatures and national parliaments, calling for legislatures, technologists and the public to participate in creating more open and participatory lawmaking practices. We invite you to sign the Manifesto using the form below."
+    principles-list:
+      item-1: To improve public trust in democratic institutions, we must improve how we govern in the 21st century.
+      item-2: CrowdLaw is any law, policy-making or public decision-making that offers a meaningful opportunity for the public to participate in one or multiples stages of decision-making, including but not limited to the processes of problem identification, solution identification, proposal drafting, ratification, implementation or evaluation.
+      item-3: CrowdLaw draws on innovative processes and technologies and encompasses diverse forms of engagement among elected representatives, public officials, and those they represent.
+      item-4: When designed well, CrowdLaw may help governing institutions obtain more relevant facts and knowledge as well as more diverse perspectives, opinions and ideas to inform governing at each stage and may help the public exercise political will.
+      item-5: When designed well, CrowdLaw may help democratic institutions build trust and the public to play a more active role in their communities and strengthen both active citizenship and democratic culture.
+      item-6: When designed well, CrowdLaw may enable engagement that is thoughtful, inclusive, informed but also efficient, manageable and sustainable.
+      item-7: Therefore, governing institutions at every level should experiment and iterate with CrowdLaw initiatives in order to create formal processes for diverse members of society to participate in order to improve the legitimacy of decision-making, strengthen public trust and produce better outcomes.
+      item-8: Governing institutions at every level should encourage research and learning about CrowdLaw and its impact on individuals, on institutions and on society.
+      item-9: The public also has a responsibility to improve our democracy by demanding and creating opportunities to engage and then actively contributing expertise, experience, data and opinions.
+      item-10: Technologists should work collaboratively across disciplines to develop, evaluate and iterate varied, ethical and secure CrowdLaw platforms and tools, keeping in mind that different participation mechanisms will achieve different goals.
+      item-11: Governing institutions at every level should encourage collaboration across organizations and sectors to test what works and share good practices.
+      item-12: Governing institutions at every level should create the legal and regulatory frameworks necessary to promote CrowdLaw and better forms of public engagement and usher in a new era of more open, participatory and effective governing.
+    signatures-label: The CrowdLaw Manifesto has been signed by the following individuals and organizations
+    individuals: Individuals
+    organizations: Organizations

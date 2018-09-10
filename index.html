@@ -1,0 +1,48 @@
+---
+layout: default
+page_id: 'list-page'
+namespace: list_page
+page_title: 'CrowdLaw Manifesto'
+---
+
+<div class="list-page">
+
+  <div class="top-section top-section--od500-header top-section--main-color top-section--map list-page__header">
+    <div class="top-section--title-container">
+      <img class="top-section--title" src="{{ 'img/crowdlawlogo.svg' | relative_url }}">
+      <span class="top-section--subtitle">{% t g.manifesto %}</span>
+    </div>
+    <div class="top-section--mobile-logo"><img src="{{'img/crowdlaw-mono.svg' | relative_url}}"></div>
+  </div>
+
+  <section class="page-section page-section__manifesto" >
+    <div class="row expanded collapse ">
+      <div class="column large-10 large-offset-1">
+        <p>
+         {% t p.index.intro %}
+        </p>
+
+        <ol class="page-section__manifesto--list">
+          <li>{% t p.index.principles-list.item-1 %}</li>
+          <li>{% t p.index.principles-list.item-2 %}</li>
+          <li>{% t p.index.principles-list.item-3 %}</li>
+          <li>{% t p.index.principles-list.item-4 %}</li>
+          <li>{% t p.index.principles-list.item-5 %}</li>
+          <li>{% t p.index.principles-list.item-6 %}</li>
+          <li>{% t p.index.principles-list.item-7 %}</li>
+          <li>{% t p.index.principles-list.item-8 %}</li>
+          <li>{% t p.index.principles-list.item-9 %}</li>
+          <li>{% t p.index.principles-list.item-10 %}</li>
+          <li>{% t p.index.principles-list.item-11 %}</li>
+          <li>{% t p.index.principles-list.item-12 %}</li>
+        </ol>
+        <p>{% t p.index.signatures-label %}</p>
+        <p>{% t p.index.individuals %}</p>
+
+        <p>{% t p.index.organizations %}</p>
+
+      </p>
+    </div>
+  </div>
+</section>
+</div>
