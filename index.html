@@ -55,7 +55,10 @@ page_title: 'CrowdLaw Manifesto'
 
   <div id="signature-form" class="signature-form">
 
-    <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdwBMQGcxb5AgsSPyMusEN9u7FWRQaQ3X5r8cTuUpyp_0RiEA/formResponse?embedded=true" target="_self" method="POST" id="mG61Hd">
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='{{ 'confirmation.html' | relative_url }}';}"></iframe>
+
+    <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdwBMQGcxb5AgsSPyMusEN9u7FWRQaQ3X5r8cTuUpyp_0RiEA/formResponse?embedded=true" target="hidden_iframe" onsubmit="submitted=true;" method="POST" id="mG61Hd">
      <div class="freebirdFormviewerViewItemsItemItemTitle exportItemTitle freebirdCustomFont" dir="auto" role="heading" aria-level="2" aria-describedby="i.desc.2088721365 i3">{% t p.index.full-name %} <span class="freebirdFormviewerViewItemsItemRequiredAsterisk" aria-label="Required question">*</span></div>
 
      <input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Full Name" aria-describedby="i.desc.2088721365 i.err.2088721365" name="entry.703409474" value="" required dir="auto" data-initial-dir="auto" data-initial-value=""/>

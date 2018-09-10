@@ -1,0 +1,35 @@
+---
+layout: default
+page_id: 'confirmation-page'
+namespace: confirmation_page
+page_title: 'CrowdLaw Manifesto | Confirmation'
+---
+
+<div class="list-page">
+
+  <div class="top-section top-section--od500-header top-section--main-color top-section--map list-page__header">
+    <div class="top-section--title-container">
+      <img class="top-section--title" src="{{ 'img/crowdlawlogo.svg' | relative_url }}">
+      <span class="top-section--subtitle">{% t g.manifesto %}</span>
+    </div>
+    <div class="top-section--mobile-logo"><img src="{{'img/crowdlaw-logo-color-trans.svg' | relative_url}}"></div>
+  </div>
+
+  <section class="page-section page-section__intro" >
+    <div class="row expanded collapse ">
+      <div class="column large-8 large-offset-2">
+        <p>
+         {% t p.confirmation.message %}
+       </p>
+     </div>
+   </div>
+   <div class="row expanded collapse ">
+    <div class="column large-8 large-offset-2">
+     <p>&nbsp;</p>
+      <center>
+       <a class="button" href="{{ '/' | relative_url }}">Back to the Manifesto</a>
+     </center>
+     <p>&nbsp;</p>
+   </div>
+ </div>
+</section>

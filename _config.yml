@@ -47,7 +47,7 @@ exclude: [node_modules, gulpfile.js]
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-multiple-languages-plugin
 
 languages: ["en", "es"]
