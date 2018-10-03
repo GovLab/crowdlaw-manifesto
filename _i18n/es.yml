@@ -25,8 +25,8 @@ p:
     affiliation: Afiliación institucional
     location: Ubicación
     org-indv-label: Me gustaría añadir mi firma al CrowdLaw Manifesto
-    sign-org: Haga clic aquí para firmar en nombre de su organización e individualmente (Preferido)
-    sign-indv: Haga clic aquí para firmar en nombre individualmente
+    sign-org: Firmar como individuo y en nombre de mi organización (preferido)
+    sign-indv: Firmar solo a mi nombre
     required: Campo requerido
     add-signature: "Añade<br>tu firma"
     public-info-note: La información compartida se publicará abiertamente en el CrowdLaw Manifesto

@@ -1,0 +1,35 @@
+g:
+  manifesto: Manifesto
+p:
+  confirmation:
+    message: "Obrigado por assinar o Manifesto CrowdLaw. Nós recebemos sua assinatura e assim que possível iremos incluí-la na lista de assinantes. Por favor, sinta-se a vontade para nos <a href='mailto:crowdlaw@thegovlab.org'>escrever caso necessite qualquer </a> tipo de assistência"
+  index:
+    manifesto-title: O Manifesto CrowdLaw
+    intro: "Em maio deste ano, no centro da <a href='https://crowd.law/crowdlaw-people-led-innovation-in-urban-lawmaking-868dd31d32a2' target='_blank'>Fundação Rockefeller em Bellagio</a> diferentes participantes reuniram-se para debater sobre CrowdLaw, isto é, como podemos usar a tecnologia para aumentar a qualidade e a efetividade na construção de leis através da participação popular. A reunião resultou na formulação de 12 princípios para promover o uso do CrowdLaw por diferentes esferas do poder legislativo, locais ou nacionais, e convoca representantes de mandatos legislativos, técnicos, programadores e a população para participar da criação de práticas mais abertas e participativas na elaboração de leis. Por isso, nós gostaríamos de convidar você a assinar o Manifesto usando o formulário abaixo."
+    principles-list:
+      item-1: Para ampliar a confiança pública nas instituições democráticas, nós temos que modernizar nossas formas de governar no século 21.
+      item-2: CrowdLaw é qualquer norma, decisão pública ou política pública que possa oferecer uma oportunidade significativa para a população participar em uma ou múltiplas etapas da tomada de decisão, incluindo, mas não limitada a, processos de identificação de problemas e de soluções, bem como na proposição, ratificação, implementação ou avaliação de propostas formuladas.
+      item-3: CrowdLaw vale-se da tecnologia e de processos inovadores para combinar diversas formas de engajamento entre representantes eleitos, servidores públicos e cidadãos.
+      item-4: Quando bem desenhado, o CrowdLaw pode ajudar na governança de instituições, obtendo dados e informações mais relevantes a partir de diferentes perspectivas e opiniões, informando melhor gestores públicos em cada etapa da tomada decisão, ao mesmo tempo em que a prática pode estimular a participação política da população.
+      item-5: Quando bem desenhado, o CrowdLaw pode ajudar instituições democráticas a construir laços de confiança com a população para que essas tenham um papel comunitário mais ativo, fortalecendo tanto a cidadania como a cultura democrática.
+      item-6: Quando bem desenhado, o CrowdLaw pode estimular o engajamento consciente, inclusivo e informado, ao mesmo tempo eficiente, gerenciável e sustentável.
+      item-7: Sendo assim, instituições públicas de todos os níveis devem experimentar iniciativas de CrowdLaw de forma a amadurecer processos formais de participação da população nas decisões políticas, com os quais também poderemos esperar um aumento da legitimidade nos processos de tomada de decisão, o fortalecimento da confiança pública, bem como melhores resultados dessas políticas.
+      item-8: Instituições públicas de todos os níveis devem incentivar a pesquisa e a aprendizagem sobre CrowdLaw e seus impactos sobre indivíduos, instituições e a sociedade.
+      item-9: A população também tem a responsabilidade de melhorar nossas democracias cobrando e criando oportunidades à participação, assim como contribuindo ativamente com seus conhecimentos, experiências, informações e opiniões.
+      item-10: Técnicos devem trabalhar de forma colaborativa e multidisciplinar para desenvolver, avaliar e distribuir plataformas e ferramentas de CrowdLaw, focando em seus aspectos éticos e de segurança, tendo em mente que distintos objetivos requerem diferentes mecanismos de participação.
+      item-11: Instituições públicas de todos os níveis devem incentivar a colaboração entre diferentes organizações e setores para testar estratégias e compartilhar boas práticas.
+      item-12: Instituições públicas de todos os níveis devem criar marcos regulatórios necessários à difusão do CrowdLaw, assim como devem promover novas formas de engajamento público para inaugurar uma nova era de governo mais aberto, participativo e eficaz.
+    form-header: Assine o Manifesto CrowdLaw
+    full-name: Nome completo
+    title: Profissão
+    affiliation: Afiliação institucional
+    location: País.
+    org-indv-label: Eu gostaria de adicionar minha assinatura ao Manifesto CrowdLaw
+    sign-org: Clique aqui para assinar como organização e como indivíduo (preferimos)
+    sign-indv: Clique aqui para assinar como indivíduo
+    required: Campo requerido
+    add-signature: "Adicione <br>sua assinatura"
+    public-info-note: A informação compartilhada aqui se tornará pública na página do Manifesto CrowdLaw.
+    signatures-label: O Manifesto CrowdLaw já foi assinado pelas pessoas e organizações abaixo
+    individuals: Individuals
+    organizations: Organizações
